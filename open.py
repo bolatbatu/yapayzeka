@@ -4,7 +4,7 @@ import openai
 import pyttsx3
 
 # OpenAI ChatGPT API anahtarını ayarlama
-openai.api_key =  "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"
+openai.api_key =  "openai.api keyinizi giriniz"
 
 # Ses tanıma için mikrofonu ayarlama
 r = sr.Recognizer()
@@ -24,7 +24,7 @@ while True:
         audio = r.listen(source)
 
     try:
-        text = r.recognize_google(audio, language='en-en')
+        text = r.recognize_google(audio, language='tr-tr')
         print("Söylediğiniz metin: " + text)
 
         # ChatGPT modeli ile cevap üretme
