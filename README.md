@@ -13,4 +13,5 @@ Kütüphanenin yüklenmesi için terminale yazılacak kodlar;
 pip install pyttsx3
 pip install openai
 pip install torch
-pip install speech_recognition
+pip install SpeechRecognition
+pip install pyaudio
